@@ -177,8 +177,8 @@ plugins:
         grow: true
   - source: "@quartz-themes/core"
     options:
-      theme: "material-gruvbox"
-      mode: "both"
+      theme: material-gruvbox
+      mode: both
   - source: "@quartz-community/backlinks"
     enabled: true
     layout:
@@ -276,6 +276,35 @@ plugins:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
+    order: 50
+  - source: "@quartz-themes/core"
+    enabled: true
+    options:
+      theme: tokyo-night
+      mode: both
+      themeFonts: true
+    order: 10
+  - source: "@quartz-themes/material-gruvbox"
+    enabled: true
+    options: {}
+    order: 50
+  - source: "@quartz-themes/core"
+    enabled: true
+    options:
+      theme: tokyo-night
+      mode: both
+      themeFonts: true
+    order: 10
+  - source: "@quartz-themes/core"
+    enabled: true
+    options:
+      theme: tokyo-night
+      mode: both
+      themeFonts: true
+    order: 10
+  - source: "@quartz-themes/material-gruvbox"
+    enabled: true
+    options: {}
     order: 50
 layout:
   groups:
